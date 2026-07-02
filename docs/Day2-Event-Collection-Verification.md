@@ -6,16 +6,6 @@ Verify that Sysmon is generating Windows events and confirm that Splunk Universa
 
 
 
-## Lab Environment
-
-| Component | Version |
-|-----------|---------|
-| Operating System | Windows 11 |
-| Splunk Enterprise | 10.4.0 |
-| Splunk Universal Forwarder | 10.4.0 |
-| Sysmon | Latest Version |
-
-
 
 ## Completed Tasks
 
