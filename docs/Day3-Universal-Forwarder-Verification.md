@@ -53,7 +53,7 @@ Verify that Sysmon events are successfully ingested and searchable in Splunk Ent
 
 ### 1. Verify Universal Forwarder Connection
 
-![Verify Universal Forwarder Connection](../screenshots/01_forward_server.png)
+![Verify Universal Forwarder Connection](../screenshots/day3/01_forward_server.png)
 
 Verified that the Universal Forwarder is actively forwarding data to Splunk Enterprise on localhost:9997.
 
@@ -61,7 +61,7 @@ Verified that the Universal Forwarder is actively forwarding data to Splunk Ente
 
 ### 2. outputs.conf Configuration
 
-![outputs.conf Configuration](../screenshots/02_outputs_conf.png)
+![outputs.conf Configuration](../screenshots/day3/02_outputs_conf.png)
 
 Verified the forwarding configuration in the outputs.conf file.
 
@@ -69,7 +69,7 @@ Verified the forwarding configuration in the outputs.conf file.
 
 ### 3. inputs.conf Configuration
 
-![inputs.conf Configuration](../screenshots/03_inputs_conf.png)
+![inputs.conf Configuration](../screenshots/day3/03_inputs_conf.png)
 
 Verified the Sysmon Operational Event Log configuration in the inputs.conf file.
 
@@ -77,6 +77,6 @@ Verified the Sysmon Operational Event Log configuration in the inputs.conf file.
 
 ### 4. Splunk Receiving Port (9997)
 
-![Splunk Receiving Port](../screenshots/04_receiving_port_status.png)
+![Splunk Receiving Port](../screenshots/day3/04_receiving_port_status.png)
 
 Confirmed that Splunk Enterprise is actively listening on TCP port 9997 to receive forwarded events.
