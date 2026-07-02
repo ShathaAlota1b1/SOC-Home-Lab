@@ -62,7 +62,7 @@ Investigate why Splunk Enterprise is not indexing Windows events despite the Uni
 
 ### 2. Sysmon Operational Events
 
-![Sysmon Events](../screenshots/day2/02_sysmon_events_Verified.png)
+![Sysmon Events](../screenshots/day2/02_sysmon_events_verified.png)
 
 
 
