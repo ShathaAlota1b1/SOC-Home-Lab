@@ -62,22 +62,22 @@ Investigate why Splunk Enterprise is not indexing Windows events despite the Uni
 
 ### 2. Sysmon Operational Events
 
-![Sysmon Events](../screenshots/day2/02_sysmon_events.png)
+![Sysmon Events](../screenshots/day2/02_sysmon_events_Verified.png)
 
 
 
 ### 3. Universal Forwarder WinEventLog Configuration
 
-![Forwarder Configuration](../screenshots/day2/03_forwarder_inputs_configuration.png)
+![Forwarder Configuration](../screenshots/day2/03_forwarder_input_configuration.png)
 
 
 
 ### 4. Splunk Search (No Results)
 
-![Splunk Search](../screenshots/day2/04_splunk_no_events.png)
+![Splunk Search](../screenshots/day2/04_no_events_in_splunk.png)
 
 
 
 ### 5. Splunk Add-on for Microsoft Windows Installed
 
-![Splunk Add-on](../screenshots/day2/05_splunk_windows_addon.png)
+![Splunk Add-on](../screenshots/day2/05_windows_addon_installed.png)
