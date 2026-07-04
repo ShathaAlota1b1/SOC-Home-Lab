@@ -34,30 +34,6 @@ The issue was resolved, and Sysmon Operational events were successfully collecte
 
 
 
-## Validation
-
-### Event Statistics
-index=main
-| stats count by EventCode
-
-Example output:
-
-| EventCode | Count |
-|-----------|------:|
-| 1 | 33440 |
-| 3 | 395 |
-| 11 | 380 |
-| 12 | 49 |
-| 13 | 604 |
-| 22 | 283 |
-
-### Process Creation Events
-index=main EventCode=1
-
-The search successfully displayed Sysmon Process Creation events.
-
-
-
 ## Evidence
 
 ### Error Found
