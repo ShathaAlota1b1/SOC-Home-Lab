@@ -13,7 +13,7 @@ index=main
 
 Screenshot
 
-![](screenshots/01_all_events.jpg)
+![](screenshots/day6/01_all_events.jpg)
 
 
 
@@ -25,7 +25,7 @@ index=main
 
 Screenshot
 
-![](screenshots/02_eventcode_count.png)
+![](screenshots/day6/02_eventcode_count.png)
 
 
 
@@ -36,7 +36,7 @@ index=main EventCode=1
 
 Screenshot
 
-![](screenshots/03_process_creation.png)
+![](screenshots/day6/03_process_creation.png)
 
 
 
@@ -47,7 +47,7 @@ index=main EventCode=3
 
 Screenshot
 
-![](screenshots/04_network_connections.jpg)
+![](screenshots/day6/04_network_connections.jpg)
 
 
 
@@ -58,7 +58,7 @@ index=main EventCode=11
 
 Screenshot
 
-![](screenshots/05_file_create.png)
+![](screenshots/day6/05_file_create.png)
 
 
 
@@ -69,7 +69,7 @@ index=main EventCode=22
 
 Screenshot
 
-![](screenshots/06_dns_queries.png)
+![](screenshots/day6/06_dns_queries.png)
 
 
 
