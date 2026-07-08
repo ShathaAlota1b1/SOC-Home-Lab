@@ -11,8 +11,6 @@ Practice using SPL (Search Processing Language) to investigate different Sysmon 
 SPL Query
 index=main
 
-Screenshot
-
 ![](../screenshots/day6/01_all_events.jpg)
 
 
@@ -20,12 +18,9 @@ Screenshot
 ## 2. Count Sysmon Event IDs
 
 SPL Query
-index=main
-| stats count by EventCode
+index=main | stats count by EventCode
 
-Screenshot
-
-![](screenshots/day6/02_eventcode_count.png)
+![](../screenshots/day6/02_eventcode_count.png)
 
 
 
@@ -34,9 +29,7 @@ Screenshot
 SPL Query
 index=main EventCode=1
 
-Screenshot
-
-![](screenshots/day6/03_process_creation.png)
+![](../screenshots/day6/03_process_creation.png)
 
 
 
@@ -45,9 +38,7 @@ Screenshot
 SPL Query
 index=main EventCode=3
 
-Screenshot
-
-![](screenshots/day6/04_network_connections.jpg)
+![](../screenshots/day6/04_network_connections.jpg)
 
 
 
@@ -56,9 +47,7 @@ Screenshot
 SPL Query
 index=main EventCode=11
 
-Screenshot
-
-![](screenshots/day6/05_file_create.png)
+![](../screenshots/day6/05_file_create.png)
 
 
 
@@ -67,9 +56,8 @@ Screenshot
 SPL Query
 index=main EventCode=22
 
-Screenshot
 
-![](screenshots/day6/06_dns_queries.png)
+![](../screenshots/day6/06_dns_queries.png)
 
 
 
