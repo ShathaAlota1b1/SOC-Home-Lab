@@ -47,7 +47,7 @@ index=main EventCode=3
 
 Screenshot
 
-![](screenshots/04_network_connections.png)
+![](screenshots/04_network_connections.jpg)
 
 
 
