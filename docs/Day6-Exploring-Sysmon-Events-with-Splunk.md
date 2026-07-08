@@ -8,8 +8,7 @@ Practice using SPL (Search Processing Language) to investigate different Sysmon 
 
 ## 1. Display All Indexed Events
 
-SPL Query
-index=main
+
 
 ![](../screenshots/day6/01_all_events.jpg)
 
@@ -17,8 +16,6 @@ index=main
 
 ## 2. Count Sysmon Event IDs
 
-SPL Query
-index=main | stats count by EventCode
 
 ![](../screenshots/day6/02_eventcode_count.png)
 
@@ -26,8 +23,6 @@ index=main | stats count by EventCode
 
 ## 3. Process Creation (Event ID 1)
 
-SPL Query
-index=main EventCode=1
 
 ![](../screenshots/day6/03_process_creation.png)
 
@@ -35,8 +30,6 @@ index=main EventCode=1
 
 ## 4. Network Connections (Event ID 3)
 
-SPL Query
-index=main EventCode=3
 
 ![](../screenshots/day6/04_network_connections.jpg)
 
@@ -44,17 +37,12 @@ index=main EventCode=3
 
 ## 5. File Creation (Event ID 11)
 
-SPL Query
-index=main EventCode=11
 
 ![](../screenshots/day6/05_file_create.png)
 
 
 
 ## 6. DNS Queries (Event ID 22)
-
-SPL Query
-index=main EventCode=22
 
 
 ![](../screenshots/day6/06_dns_queries.png)
