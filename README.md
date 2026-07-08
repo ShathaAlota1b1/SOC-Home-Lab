@@ -1,53 +1,52 @@
-# 🛡️ SOC Home Lab using Splunk & Sysmon
+SOC Home Lab
 
-## Project Overview
+Overview
 
-This repository documents my journey building a production-inspired Security Operations Center (SOC) Home Lab.
+This project documents the process of building a personal Security Operations Center (SOC) Home Lab using Splunk Enterprise, Splunk Universal Forwarder, and Sysmon.
 
-The lab is designed to simulate real-world SOC operations by collecting, analyzing, and investigating Windows security events using Splunk Enterprise and Sysmon.
+The objective is to gain hands-on experience with log collection, event monitoring, data ingestion, and Security Information and Event Management (SIEM) by documenting each stage of the lab.
 
-## Objectives
+⸻
 
-- Build a functional SOC Home Lab.
-- Collect Windows Event Logs.
-- Ingest Sysmon logs into Splunk.
-- Create detection rules.
-- Perform threat hunting.
-- Build dashboards and alerts.
-- Document the complete deployment process.
+Lab Environment
 
+Operating System: Windows 11
+SIEM: Splunk Enterprise
+Log Forwarder: Splunk Universal Forwarder
+Endpoint Monitoring: Sysmon
+Data Source: Windows Event Logs
 
+⸻
 
-## Technologies
+Project Structure
 
-- Splunk Enterprise
-- Splunk Universal Forwarder
-- Sysmon
-- Windows 11
+Day 01 – Environment Setup
+Day 02 – Event Collection Verification
+Day 03 – Universal Forwarder Verification
+Day 04 – Data Ingestion Verification
+Day 05 – Sysmon Integration & Troubleshooting
+Day 06 – Exploring Sysmon Events with Splunk
+Day 07 – (Coming Soon)
+Day 08 – (Coming Soon)
+Day 09 – (Coming Soon)
+Day 10 – (Coming Soon)
 
+⸻
 
+Skills Demonstrated
 
-## Current Progress
+Windows Logging
+Sysmon Deployment
+Splunk Enterprise
+Splunk Universal Forwarder
+SIEM Fundamentals
+SPL (Search Processing Language)
+Event Analysis
+Log Collection
+Troubleshooting
 
-- [x] Splunk Enterprise Installed
-- [x] Sysmon Installed
-- [x] Universal Forwarder Installed
-- [x] Receiving Port Configured
-- [ ] Windows Event Log Ingestion
-- [ ] Dashboards
-- [ ] Alerts
-- [ ] Threat Hunting
-- [ ] Incident Investigation
+⸻
 
+Project Goal
 
-
-## Repository Structure
-docs/
-screenshots/
-configs/
-detections/
-reports/
-
-
-
-> This project is continuously updated as I progress through building my SOC Home Lab.
+Build a functional SOC Home Lab and document every stage to demonstrate practical cybersecurity and SIEM skills.
