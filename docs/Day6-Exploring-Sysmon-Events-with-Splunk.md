@@ -13,7 +13,7 @@ index=main
 
 Screenshot
 
-![](screenshots/01_all_events.png)
+![](screenshots/01_all_events.jpg)
 
 
 
