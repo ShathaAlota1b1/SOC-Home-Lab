@@ -23,7 +23,7 @@ This helped me understand how analysts investigate process execution and identif
 index=main EventCode=1 Image="*powershell.exe"
 | table _time Image CommandLine User ParentImage
 
-![](../screenshots/01_powershell_investigation.png)
+![](../screenshots/day7/01_powershell_investigation.png)
 
 
 
@@ -31,7 +31,7 @@ index=main EventCode=1 Image="*powershell.exe"
 index=main EventCode=1 Image="*cmd.exe"
 | table _time Image CommandLine User ParentImage
 
-![](../screenshots/02_cmd_investigation.png)
+![](../screenshots/day7/02_cmd_investigation.png)
 
 
 
@@ -39,7 +39,7 @@ index=main EventCode=1 Image="*cmd.exe"
 index=main EventCode=1 ParentImage="*explorer.exe"
 | table _time Image ParentImage User
 
-![](../screenshots/03_parent_explorer.png)
+![](../screenshots/day7/03_parent_explorer.png)
 
 
 
@@ -48,7 +48,7 @@ index=main EventCode=1
 | stats count by Image
 | sort -count
 
-![](../screenshots/04_top_processes.png)
+![](../screenshots/day7/04_top_processes.png)
 
 
 
@@ -56,7 +56,7 @@ index=main EventCode=1
 index=main EventCode=1 Image="*powershell.exe"
 | table _time CommandLine User
 
-![](../screenshots/05_powershell_commands.png)
+![](../screenshots/day7/05_powershell_commands.png)
 
 
 
@@ -64,7 +64,7 @@ index=main EventCode=1 Image="*powershell.exe"
 index=main EventCode=1
 | stats count by User
 
-![](../screenshots/06_users.png)
+![](../screenshots/day7/06_users.png)
 
 
 
