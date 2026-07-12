@@ -18,10 +18,10 @@ The dashboard was created using the following steps:
 6. Saved the completed dashboard.
 
 ## Dashboard
-![Dashboard](../screenshots/00_dashboard.png)
+![Dashboard](../screenshots/day8/00_dashboard.png)
 ## Final Dashboard
 
-![SOC Monitoring Dashboard](../screenshots/01_dashboard_overview.png)
+![SOC Monitoring Dashboard](../screenshots/day8/01_dashboard_overview.png)
 
 
 
@@ -36,7 +36,7 @@ index=main EventCode=1 | stats count
 
 Visualization: Single Value
 
-![Total Process Creation Events](../screenshots/02_total_process_creation_panel.png)
+![Total Process Creation Events](../screenshots/day8/02_total_process_creation_panel.png)
 
 
 
@@ -49,7 +49,7 @@ index=main EventCode=3 | stats count
 
 Visualization: Single Value
 
-![Total Network Connections](../screenshots/03_total_network_connections_panel.png)
+![Total Network Connections](../screenshots/day8/03_total_network_connections_panel.png)
 
 
 
@@ -62,7 +62,7 @@ index=main EventCode=22 | stats count
 
 Visualization: Single Value
 
-![Total DNS Queries](../screenshots/04_total_dns_queries_panel.png)
+![Total DNS Queries](../screenshots/day8/04_total_dns_queries_panel.png)
 
 
 
@@ -75,7 +75,7 @@ index=main EventCode=1 | top limit=10 Image
 
 Visualization: Bar Chart
 
-![Top 10 Processes](../screenshots/05_top_10_processes_panel.png)
+![Top 10 Processes](../screenshots/day8/05_top_10_processes_panel.png)
 
 
 
@@ -88,7 +88,7 @@ index=main EventCode=1 | stats count by User | sort -count
 
 Visualization: Bar Chart
 
-![Top Users](../screenshots/06_top_users_panel.png)
+![Top Users](../screenshots/day8/06_top_users_panel.png)
 
 
 
@@ -101,7 +101,7 @@ index=main EventCode=1 | sort -_time | table _time User Image CommandLine | head
 
 Visualization: Table
 
-![Latest Process Activity](../screenshots/07_latest_process_activity_panel.png)
+![Latest Process Activity](../screenshots/day8/07_latest_process_activity_panel.png)
 
 
 
