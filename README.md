@@ -119,17 +119,32 @@ During this project I learned how:
 
 
 ## Repository Structure
+
+```text
 SOC-Home-Lab/
 │
-├── Day-01-Environment-Setup/
-├── Day-02-Event-Collection-Verification/
-├── Day-03-Universal-Forwarder-Verification/
-├── Day-04-Data-Ingestion-Verification/
-├── Day-05-Sysmon-Integration-and-Troubleshooting/
-├── Day-06-Exploring-Sysmon-Events/
-├── Day-07-Process-Investigation/
-├── Day-08-Building-SOC-Monitoring-Dashboard/
+├── docs/
+│   ├── Day-01-Environment-Setup.md
+│   ├── Day-02-Event-Collection-Verification.md
+│   ├── Day-03-Universal-Forwarder-Verification.md
+│   ├── Day-04-Data-Ingestion-Verification.md
+│   ├── Day-05-Sysmon-Integration-and-Troubleshooting.md
+│   ├── Day-06-Exploring-Sysmon-Events.md
+│   ├── Day-07-Process-Investigation.md
+│   └── Day-08-Building-SOC-Monitoring-Dashboard.md
+│
+├── screenshots/
+│   ├── day01/
+│   ├── day02/
+│   ├── day03/
+│   ├── day04/
+│   ├── day05/
+│   ├── day06/
+│   ├── day07/
+│   └── day08/
+│
 └── README.md
+```
 
 
 
