@@ -21,25 +21,44 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 
 
 
-Windows Endpoint
-        │
-        ▼
-     Sysmon
-(Event Collection)
-        │
-        ▼
-Splunk Universal Forwarder
-(Log Forwarding)
-        │
-        ▼
-Splunk Enterprise
-(Indexing & Search)
-        │
-        ▼
-      SPL Queries
-        │
-        ▼
-SOC Monitoring Dashboard
+## Lab Architecture
+
+```text
++----------------------+
+|      Windows         |
+| (User Activities)    |
++----------+-----------+
+           |
+           v
++----------------------+
+|       Sysmon         |
+| Security Telemetry   |
++----------+-----------+
+           |
+           v
++----------------------+
+| Splunk Universal     |
+|     Forwarder        |
++----------+-----------+
+           |
+           v
++----------------------+
+|  Splunk Enterprise   |
+| Indexing & Storage   |
++----------+-----------+
+           |
+           v
++----------------------+
+|     SPL Queries      |
+| Investigation        |
++----------+-----------+
+           |
+           v
++----------------------+
+|  SOC Dashboard       |
+| Monitoring & Analysis|
++----------------------+
+```
 
 
 
