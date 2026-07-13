@@ -62,6 +62,31 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 +----------------------+
 ```
 
+## Project Workflow
+
+Windows Activity
+        │
+        ▼
+     Sysmon
+        │
+        ▼
+Universal Forwarder
+        │
+        ▼
+Splunk Enterprise
+        │
+        ▼
+SPL Investigation
+        │
+        ▼
+SOC Dashboard
+
+
+
+## Project Scope
+
+This project focuses on building a functional SOC Home Lab capable of collecting, forwarding, analyzing, and visualizing Windows security events using Splunk.
+
 
 
 ## Project Timeline
@@ -91,16 +116,17 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 
 ## Skills Demonstrated
 
-- SIEM Fundamentals
-- Log Collection
-- Log Forwarding
-- Windows Event Log Analysis
-- Sysmon Event Analysis
-- SPL Query Writing
-- Security Event Investigation
-- Dashboard Creation
-- Troubleshooting
-- Technical Documentation
+-SIEM Fundamentals
+-Splunk Enterprise
+-Sysmon
+-Splunk Universal Forwarder
+-Windows Event Logs
+-SPL
+-Security Event Investigation
+-Dashboard Development
+-Log Analysis
+-Troubleshooting
+-Technical Documentation
 
 
 
@@ -150,8 +176,17 @@ SOC-Home-Lab/
 
 ## References
 
-This project was completed using official vendor documentation together with hands-on implementation and troubleshooting.
+- Splunk Enterprise Documentation
+  https://docs.splunk.com/Documentation/Splunk
 
-- Splunk Documentation
 - Splunk Universal Forwarder Documentation
-- Microsoft Sysinternals - Sysmon Documentation
+  https://docs.splunk.com/Documentation/Forwarder
+
+- Microsoft Sysmon Documentation
+  https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
+
+- Microsoft Sysinternals Suite
+  https://learn.microsoft.com/en-us/sysinternals/
+
+- Windows Event Logging Documentation
+  https://learn.microsoft.com/en-us/windows/win32/wes/windows-event-log
