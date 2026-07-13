@@ -21,23 +21,25 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 
 
 
-## Lab Architecture
-Windows
-    │
-    ▼
-Sysmon
-    │
-    ▼
+Windows Endpoint
+        │
+        ▼
+     Sysmon
+(Event Collection)
+        │
+        ▼
 Splunk Universal Forwarder
-    │
-    ▼
+(Log Forwarding)
+        │
+        ▼
 Splunk Enterprise
-    │
-    ▼
-Search Processing Language (SPL)
-    │
-    ▼
-SOC Dashboard
+(Indexing & Search)
+        │
+        ▼
+      SPL Queries
+        │
+        ▼
+SOC Monitoring Dashboard
 
 
 
