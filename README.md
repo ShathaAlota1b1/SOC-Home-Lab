@@ -121,17 +121,17 @@ This project focuses on building a functional SOC Home Lab capable of collecting
 
 ## Skills Demonstrated
 
--SIEM Fundamentals
--Splunk Enterprise
--Sysmon
--Splunk Universal Forwarder
--Windows Event Logs
--SPL
--Security Event Investigation
--Dashboard Development
--Log Analysis
--Troubleshooting
--Technical Documentation
+- Splunk Enterprise
+- Splunk Search Processing Language (SPL)
+- Microsoft Sysmon
+- Splunk Universal Forwarder
+- Windows Event Logs
+- SIEM Fundamentals
+- Log Collection & Analysis
+- Security Event Investigation
+- Dashboard Creation
+- Technical Troubleshooting
+- Technical Documentation
 
 
 
