@@ -62,8 +62,11 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 +----------------------+
 ```
 
+
+
 ## Project Workflow
 
+```text
 Windows Activity
         │
         ▼
@@ -80,6 +83,7 @@ SPL Investigation
         │
         ▼
 SOC Dashboard
+```
 
 
 
