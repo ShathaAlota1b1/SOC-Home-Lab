@@ -1,5 +1,5 @@
 # SOC Home Lab with Splunk
-
+![SOC Monitoring Dashboard](../screenshots/day8/01_dashboard_overview.png)
 ## Overview
 
 This project documents the process of building a Security Operations Center (SOC) Home Lab using Splunk Enterprise, Sysmon, and Splunk Universal Forwarder.
