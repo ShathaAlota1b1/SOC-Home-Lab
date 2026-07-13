@@ -91,8 +91,7 @@ SOC Dashboard
 
 ## Project Scope
 
-This project focuses on building a functional SOC Home Lab capable of collecting, forwarding, analyzing, and visualizing Windows security events using Splunk.
-
+This project focuses on building a functional SOC Home Lab capable of collecting, forwarding, analyzing, and visualizing Windows security events using Splunk while documenting each implementation phase.
 
 
 ## Project Timeline
@@ -182,17 +181,17 @@ SOC-Home-Lab/
 
 ## References
 
-- Splunk Enterprise Documentation
+1- Splunk Enterprise Documentation
   https://docs.splunk.com/Documentation/Splunk
 
-- Splunk Universal Forwarder Documentation
+2- Splunk Universal Forwarder Documentation
   https://docs.splunk.com/Documentation/Forwarder
 
-- Microsoft Sysmon Documentation
+3- Microsoft Sysmon Documentation
   https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon
 
-- Microsoft Sysinternals Suite
+4- Microsoft Sysinternals Suite
   https://learn.microsoft.com/en-us/sysinternals/
 
-- Windows Event Logging Documentation
+5- Windows Event Logging Documentation
   https://learn.microsoft.com/en-us/windows/win32/wes/windows-event-log
