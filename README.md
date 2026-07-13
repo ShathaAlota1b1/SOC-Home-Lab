@@ -1,6 +1,6 @@
 # SOC Home Lab with Splunk
 
-![SOC Monitoring Dashboard](../screenshots/day8/01_dashboard_overview.png)
+![SOC Monitoring Dashboard](./screenshots/day8/01_dashboard_overview.png)
 
 ## Overview
 
