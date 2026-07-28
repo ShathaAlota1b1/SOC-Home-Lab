@@ -23,7 +23,7 @@ The objective of Day 1 was to build the foundation of my SOC Home Lab by install
 - Installed Splunk Universal Forwarder.
 - Downloaded Splunk Add-on for Microsoft Windows.
 - Installed Microsoft Sysmon.
-- Applied a Sysmon configuration file.
+- Downloaded a Sysmon configuration file.
 - Enabled TCP Receiving Port (9997) in Splunk Enterprise.
 - Configured the Universal Forwarder to forward data to Splunk Enterprise.
 
