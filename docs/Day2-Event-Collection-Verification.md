@@ -14,7 +14,7 @@ Verify that Sysmon is generating Windows events and confirm that Splunk Universa
 - Verified Universal Forwarder WinEventLog configuration.
 - Installed Splunk Add-on for Microsoft Windows.
 - Searched for incoming events in Splunk Enterprise.
-- Identified that Windows events were not yet being indexed.
+- Identified that Windows events were not appearing in Splunk Enterprise.
 
 
 
