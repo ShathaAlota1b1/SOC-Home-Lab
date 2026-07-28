@@ -18,16 +18,6 @@ Verify that Sysmon is generating Windows events and confirm that Splunk Universa
 
 
 
-## Skills Gained
-
-- Verifying Windows services.
-- Inspecting Sysmon Operational Event Logs.
-- Validating Splunk Universal Forwarder configuration.
-- Installing Splunk Add-ons.
-- Troubleshooting Windows Event Log ingestion.
-
-
-
 ## Challenges
 
 Although Sysmon events were successfully generated and the Universal Forwarder configuration appeared correct, no events were indexed inside Splunk Enterprise. Further troubleshooting is required to determine the cause of the ingestion issue.
@@ -38,11 +28,6 @@ Although Sysmon events were successfully generated and the Universal Forwarder c
 
 I learned how to verify each stage of the Windows event collection pipeline instead of assuming the issue was caused by Sysmon itself. I also gained experience validating services, event logs, and Splunk configurations during troubleshooting.
 
-
-
-## Status
-
-🟡 In Progress
 
 
 
