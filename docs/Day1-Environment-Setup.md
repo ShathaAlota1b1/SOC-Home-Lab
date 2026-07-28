@@ -32,14 +32,13 @@ The objective of Day 1 was to build the foundation of my SOC Home Lab by install
 
 ## Challenges
 
-During the initial setup, I experienced several configuration issues while connecting the Universal Forwarder to Splunk Enterprise. I also encountered difficulties with Windows Event Log ingestion. These issues required troubleshooting configuration files, verifying services, and checking connectivity between the forwarder and Splunk.
+During the initial setup, I encountered some configuration issues while connecting the Universal Forwarder to Splunk Enterprise. These issues required checking the forwarding configuration and verifying communication between the components.
 
 
 
 ## Lessons Learned
 
-This stage helped me understand how the main components of a SIEM environment work together. I learned the relationship between Splunk Enterprise, Universal Forwarder, Sysmon, and Windows Event Logs, and gained practical experience troubleshooting deployment issues.
-
+This stage helped me understand how the main components of a SIEM environment work together, including Splunk Enterprise, Splunk Universal Forwarder, Sysmon, and Windows Event Logs. It also gave me practical experience with initial configuration and troubleshooting.
 
 
 
