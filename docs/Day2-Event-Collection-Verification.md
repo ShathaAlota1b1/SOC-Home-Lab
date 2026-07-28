@@ -26,14 +26,8 @@ Although Sysmon events were successfully generated and the Universal Forwarder c
 
 ## Lessons Learned
 
-I learned how to verify each stage of the Windows event collection pipeline instead of assuming the issue was caused by Sysmon itself. I also gained experience validating services, event logs, and Splunk configurations during troubleshooting.
+Learned how to verify Sysmon events and checks the Universal Forwarder configuration before troubleshooting data collection issues.
 
-
-
-
-## Next Step
-
-Investigate why Splunk Enterprise is not indexing Windows events despite the Universal Forwarder and Sysmon being correctly configured.
 
 
 
