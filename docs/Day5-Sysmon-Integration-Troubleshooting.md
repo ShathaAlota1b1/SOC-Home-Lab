@@ -34,7 +34,15 @@ The issue was resolved, and Sysmon Operational events were successfully collecte
 
 
 
-## Evidence
+## Lessons Learned
+
+- Verified that Sysmon generated Windows Event Logs successfully.
+- Confirmed that Sysmon events were indexed in Splunk.
+- Used SPL searches to validate successful event collection.
+
+
+
+## Screenshots 
 
 ### Error Found
 
@@ -55,21 +63,3 @@ The issue was resolved, and Sysmon Operational events were successfully collecte
 ### Process Creation Events
 
 ![Sysmon Events](../screenshots/day5/05_sysmon_events.png)
-
-
-
-## Skills Practiced
-
-- Sysmon deployment
-- Windows Event Log verification
-- Splunk log analysis
-- SPL searching
-- Log ingestion verification
-
-
-
-## Lessons Learned
-
-- Verified that Sysmon generated Windows Event Logs successfully.
-- Confirmed that Sysmon events were indexed in Splunk.
-- Used SPL searches to validate successful event collection.
