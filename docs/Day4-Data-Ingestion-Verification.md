@@ -16,16 +16,6 @@ Verify that Splunk Enterprise is successfully receiving and indexing data from t
 
 
 
-## Skills Gained
-
-- Verifying data ingestion in Splunk.
-- Understanding the _internal index.
-- Using SPL to validate data ingestion.
-- Confirming host indexing.
-- Troubleshooting data collection issues.
-
-
-
 ## Challenges
 
 Initially, no events appeared during searches, making it difficult to determine whether the issue was related to the Universal Forwarder or Splunk Enterprise. After restarting Splunk and validating the _internal index, I confirmed that the forwarding pipeline was functioning correctly.
@@ -35,18 +25,6 @@ Initially, no events appeared during searches, making it difficult to determine 
 ## Lessons Learned
 
 I learned that successfully configuring a Universal Forwarder does not necessarily guarantee immediate visibility of events. Verifying internal Splunk logs is an effective way to confirm that data is being received and indexed correctly before troubleshooting search queries.
-
-
-
-## Status
-
-🟢 Completed
-
-
-
-## Next Step
-
-Search and analyze Sysmon events using SPL queries inside Splunk Enterprise.
 
 
 
