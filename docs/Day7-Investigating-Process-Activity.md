@@ -65,14 +65,3 @@ index=main EventCode=1
 | stats count by User
 
 ![](../screenshots/day7/06_users.png)
-
-
-
-## Skills Learned
-
-- Investigating Sysmon Process Creation events
-- Using SPL for process analysis
-- Understanding Parent Processes
-- Analyzing CommandLine fields
-- Identifying active users
-- Summarizing process activity using statistical searches
