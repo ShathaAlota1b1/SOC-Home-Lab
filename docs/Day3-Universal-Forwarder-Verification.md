@@ -17,15 +17,6 @@ Verify that the Splunk Universal Forwarder is correctly configured and connected
 
 
 
-## Skills Gained
-
-- Universal Forwarder verification.
-- Understanding outputs.conf.
-- Understanding inputs.conf.
-- Splunk receiving port validation.
-- Forwarder troubleshooting.
-
-
 
 ## Challenges
 
@@ -37,15 +28,6 @@ During this stage, I carefully verified each forwarding component to ensure ther
 
 This stage helped me understand how to verify the complete log forwarding pipeline. I learned that checking the Universal Forwarder status, configuration files, and receiving port is essential before troubleshooting missing events in Splunk.
 
-
-
-## Status
-
-✅ Universal Forwarder successfully connected to Splunk Enterprise.
-
-### Next Goal
-
-Verify that Sysmon events are successfully ingested and searchable in Splunk Enterprise.
 
 
 
