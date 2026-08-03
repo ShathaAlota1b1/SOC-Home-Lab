@@ -76,7 +76,7 @@ The activity was treated as requiring further investigation rather than being cl
 
 ### Screenshot
 
-![Parent Process Investigation](../screenshots/day9/04-parent-process-investigation.png)
+![Parent Process Investigation](../screenshots/day9/04_la57setup_Parent_analysis.png)
 
 ## 5. Alert Configuration
 
