@@ -56,7 +56,7 @@ Observed parent processes included:
 
 ### Screenshot
 
-![Parent Process Analysis](../screenshots/day9/03-parent-process-analysis.png)
+![Parent Process Analysis](../screenshots/day9/03_Parent_Process_Analysis.png)
 
 ## 4. Parent Process Investigation
 
