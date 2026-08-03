@@ -84,17 +84,10 @@ The rare process detection was configured as a Splunk alert using a result-based
 
 ### Screenshot
 
-![Alert Configuration](../screenshots/day9/05-alert-configuration.png)
+![Alert Configuration](../Videos/day9/05_Alert_configuration.png)
 
-## 6. Alert Verification
 
-The configured alert was verified through Splunk's Triggered Alerts.
-
-### Screenshot
-
-![Alert Verification](../screenshots/day9/06-alert-verification.png)
-
-## 7. Alert Creation Demonstration
+## 6. Alert Creation Demonstration
 
 A short video demonstrates the process of configuring and creating the Splunk alert.
 
