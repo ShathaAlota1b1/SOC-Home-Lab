@@ -35,7 +35,7 @@ The investigation focused on the process timestamp, user, parent process, and co
 
 ### Screenshot
 
-![Process Investigation](../screenshots/day9/02-process-investigation.png)
+![Process Investigation](../screenshots/day9/02_DismHost_Process_Investigation.png)
 
 ## 3. Parent Process Analysis
 
