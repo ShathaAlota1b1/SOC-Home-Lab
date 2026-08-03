@@ -8,8 +8,7 @@
 
 This project documents the process of building a Security Operations Center (SOC) Home Lab using Splunk Enterprise, Sysmon, and Splunk Universal Forwarder.
 The goal of this project was to understand how security events are generated, collected, forwarded, analyzed, and visualized using a Security Information and Event Management (SIEM) solution.
-Throughout this project, I built the lab from scratch, verified log collection, resolved integration issues, analyzed Sysmon events using SPL, and created a monitoring dashboard.
-
+Throughout this project, I built the lab from scratch, verified log collection, resolved integration issues, analyzed Sysmon events using SPL, investigated Windows process activity, created a monitoring dashboard, and configured a basic detection and alert.
 
 
 ## Objectives
@@ -20,7 +19,9 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 - Verify data ingestion.
 - Analyze security events using SPL.
 - Investigate Windows process activity.
-- Create a SOC monitoring dashboard.
+- Create a SOC monitoring dashboard
+- Create a basic detection for rare process activity.
+- Configure Splunk alerting.
 - Document the complete implementation process.
 
 
@@ -62,6 +63,11 @@ Throughout this project, I built the lab from scratch, verified log collection, 
 |  SOC Dashboard       |
 | Monitoring & Analysis|
 +----------------------+
+           |
+           v
++----------------------+
+| Detection & Alerting |
++----------------------+
 ```
 
 
@@ -85,13 +91,16 @@ SPL Investigation
         │
         ▼
 SOC Dashboard
+        │
+        ▼
+Detection & Alerting
 ```
 
 
 
 ## Project Scope
 
-This project focuses on building a functional SOC Home Lab capable of collecting, forwarding, analyzing, and visualizing Windows security events using Splunk while documenting each implementation phase.
+This project focuses on building a functional SOC Home Lab capable of collecting, forwarding, analyzing, monitoring, and detecting Windows security events using Splunk while documenting each implementation phase.
 
 
 ## Project Timeline
@@ -106,6 +115,7 @@ This project focuses on building a functional SOC Home Lab capable of collecting
 | Day 06 | Exploring Sysmon Events |
 | Day 07 | Process Investigation |
 | Day 08 | Building a SOC Monitoring Dashboard |
+| Day 09 | Detection & Alerting |
 
 
 
@@ -127,6 +137,8 @@ This project focuses on building a functional SOC Home Lab capable of collecting
 - Splunk Universal Forwarder
 - Windows Event Logs
 - Dashboard Creation
+- Process Investigation
+- Detection & Alerting
 
 
 
@@ -137,9 +149,12 @@ During this project I learned how:
 
 - Set up and configure Splunk Enterprise.
 - Collect Windows logs using Sysmon and Splunk Universal Forwarder.
-- Use SPL to search and analyze security events.
+- Use SPL to search security events.
 - Analyze Windows event data using Splunk.
 - Create a basic security monitoring dashboard.
+- Investigate Windows process activity.
+- Identify rare process activity for further investigation.
+- Configure a basic Splunk alert.
 - Troubleshoot log collection and data ingestion issues.
 - Document the project setup and troubleshooting process.
 
@@ -159,6 +174,7 @@ SOC-Home-Lab/
 │   ├── Day-06-Exploring-Sysmon-Events.md
 │   ├── Day-07-Process-Investigation.md
 │   └── Day-08-Building-SOC-Monitoring-Dashboard.md
+│   └── Day-09-Detection-and-Alerting.md
 │
 ├── screenshots/
 │   ├── day01/
@@ -169,6 +185,7 @@ SOC-Home-Lab/
 │   ├── day06/
 │   ├── day07/
 │   └── day08/
+│   └── day09/
 │
 └── README.md
 ```
