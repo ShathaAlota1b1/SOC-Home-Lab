@@ -19,7 +19,7 @@ This query was used to identify processes that appeared infrequently in the coll
 
 ### Screenshot
 
-![Rare Process Detection](../screenshots/day9/01-rare-process-detection.png)
+![Rare Process Detection](../screenshots/day9/01_Detection_Rare_Process.png)
 
 ## 2. Process Investigation
 
