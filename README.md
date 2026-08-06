@@ -133,8 +133,6 @@ This project focuses on building a functional SOC Home Lab capable of collecting
 
 - Splunk Enterprise
 - Splunk Search Processing Language (SPL)
-- Microsoft Sysmon
-- Splunk Universal Forwarder
 - Windows Event Logs
 - Dashboard Creation
 - Process Investigation
